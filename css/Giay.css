@@ -1,0 +1,55 @@
+*{
+    font-family: Noto Sans,sans-serif;
+}
+.the-shoes .tittle h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.the-shoes .category::after{
+    content: "";
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    top:41px;
+}   
+.the-shoes .category{
+    display: flex;
+    cursor: pointer;
+    position: relative;
+}
+.the-shoes .category h2{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.the-shoes .category svg{
+    margin-top: 23px;
+    margin-left: 20px;
+}
+.the-shoes .list-category{
+    width: 1600px;
+    align-items: center;
+    display: none;
+}
+.the-shoes .category:hover +.list-category{
+    display: block;
+}
+.the-shoes .list-category ul{
+    display: flex;
+    list-style:none;
+    flex-wrap: wrap;
+}
+.the-shoes .list-category ul li{
+    text-align: center;
+    width: 300px;
+    padding-top: 10px;
+}
+.the-shoes .list-category ul li h3{
+    font-size: 20px;
+}
+.main{
+    width:1200px;
+    margin: 0px auto;
+}
